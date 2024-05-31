@@ -1,8 +1,8 @@
 *::after,
 *::before,
 body {
-  padding: 0px;
-  margin-left: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family: "Spectral", system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
@@ -11,8 +11,8 @@ body {
 }
 
 .navFixed {
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
   position: sticky;
   background-color: #ffc017;
@@ -21,15 +21,18 @@ body {
   padding-inline: 120px;
   z-index: 1000;
 }
+
 .navSection {
   display: flex;
   align-items: center;
 }
+
 .logoDiv {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .imgLogo {
   width: 150px;
   height: 75px;
@@ -51,20 +54,23 @@ body {
   flex-direction: row;
   font-size: 1em;
 }
+
 .pNav {
   cursor: pointer;
   font-size: 0.8em;
 }
+
 .divBtn {
   display: flex;
   width: 20%;
   margin-left: 20px;
 }
+
 .getStarte {
   color: white;
   background-color: black;
   padding: 10px 20px;
-  font-size: 100;
+  font-size: 1em;
   border: none;
   border-radius: 40px;
 }
@@ -98,11 +104,12 @@ body {
     "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.5em;
   font-weight: 300;
-  padding: 20px 0px;
+  padding: 20px 0;
 }
+
 .emmeDiv {
-  display: flbex;
-  top: 0px;
+  display: flex;
+  top: 0;
   align-items: flex-end;
   position: relative;
   z-index: 0;
@@ -110,7 +117,7 @@ body {
 
 .imgEmme {
   top: -100px;
-  right: -30px;
+  right: 0px;
   position: absolute;
   overflow: hidden;
 }
@@ -126,4 +133,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.divH3 {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 120px;
+}
+.h3Title {
+  margin-top: 30px;
+  font-size: 300;
 }
