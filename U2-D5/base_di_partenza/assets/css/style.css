@@ -11,12 +11,15 @@ body {
 }
 
 .navFixed {
+  top: 0px;
+  left: 0px;
   width: 100%;
-  position: fixed;
+  position: sticky;
   background-color: #ffc017;
-  border-bottom: 0.8px solid black;
+  border-bottom: 1px solid black;
   margin-inline: auto;
   padding-inline: 120px;
+  z-index: 1000;
 }
 .navSection {
   display: flex;
@@ -30,11 +33,11 @@ body {
 .imgLogo {
   width: 150px;
   height: 75px;
-  display: flex;
+  padding-right: 30px;
 }
 
 .ulDiv {
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -47,9 +50,9 @@ body {
   display: flex;
   flex-direction: row;
   font-size: 1em;
-  pointer-events: visiblePainted;
 }
 .pNav {
+  cursor: pointer;
   font-size: 0.8em;
 }
 .divBtn {
@@ -64,4 +67,63 @@ body {
   font-size: 100;
   border: none;
   border-radius: 40px;
+}
+
+.stayCurios {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffc017;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 120px;
+  position: relative;
+}
+
+.textDiv {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.stayCurios h1 {
+  font-size: 5em;
+  font-weight: 400;
+}
+
+.textP {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 20px 0px;
+}
+.emmeDiv {
+  display: flbex;
+  top: 0px;
+  align-items: flex-end;
+  position: relative;
+  z-index: 0;
+}
+
+.imgEmme {
+  top: -100px;
+  right: -30px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.btnGeting {
+  flex: auto;
+  align-self: flex-end;
+}
+
+.cardTreding {
+  padding-inline: 100px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
