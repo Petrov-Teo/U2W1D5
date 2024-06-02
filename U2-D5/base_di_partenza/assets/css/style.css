@@ -1,6 +1,7 @@
 *::after,
 *::before,
 body {
+  letter-spacing: 0.02sem;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,6 +9,9 @@ body {
     BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
     Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
+}
+main {
+  height: 100vh;
 }
 
 .navFixed {
@@ -134,7 +138,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   row-gap: 50px;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 50px;
 }
 x .flx {
@@ -202,7 +206,7 @@ x .flx {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 10px 49px;
+  padding: 10px 0px 10px 70px;
 }
 .nomeCard {
   font-family: "Roboto";
@@ -224,4 +228,66 @@ x .flx {
 .divBtn2 {
   display: flex;
   width: 20%;
+}
+.afterHr {
+  width: 37%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.titoloCard {
+  display: flex;
+  flex-direction: column;
+}
+.dataAgging {
+  display: flex;
+  flex-direction: row;
+  color: #757575;
+  gap: 5px;
+  align-items: center;
+}
+.h3Titolo {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 900;
+}
+.pWahtWe {
+  color: #757575;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.spanBox {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.btnAging {
+  padding: 5px;
+  background-color: #f2f3f3;
+  border: none;
+  border-radius: 40px;
+  align-items: center;
+  color: #797675;
+}
+
+.imgArticolo {
+  display: flex;
+}
+.avatarNomeDiv2 {
+  width: ;
+  display: inherit;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.mainSection {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.imgFamil {
+  width: 70%;
 }
