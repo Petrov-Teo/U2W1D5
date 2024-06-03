@@ -253,14 +253,14 @@ x .flx {
   font-weight: 900;
 }
 .pWahtWe {
+  width: 95%;
   color: #757575;
   font-family: "Roboto";
   font-size: 20px;
 }
 .spanBox {
-  width: 50%;
   display: flex;
-  justify-content: flex-end;
+  align-items: flex-end;
 }
 .btnAging {
   padding: 5px;
@@ -290,4 +290,14 @@ x .flx {
 }
 .imgFamil {
   width: 70%;
+}
+.imgSection {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.segnalibroEimmagine {
+  flex-direction: row;
+  display: flex;
+  gap: 20px;
 }
